@@ -1,5 +1,9 @@
 # PPdemo
 
+A demonstration of some probabilistic programming problemns using Turing.jl
+
+## Use of repo
+
 This code base is using the Julia Language and [DrWatson](https://juliadynamics.github.io/DrWatson.jl/stable/)
 to make a reproducible scientific project named
 > PPdemo
