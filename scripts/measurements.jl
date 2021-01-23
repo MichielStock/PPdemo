@@ -15,8 +15,8 @@ using Turing, Plots, StatsPlots, StatsBase
 
 @model function measurement(x)
     n = length(x)
-    σ²mu ~ InverseGamma(10, 0.1)
-    μ ~ Normal(0, √(σ²mu))
+    σ²_μ ~ InverseGamma(10, 0.1)
+    μ ~ Normal(0.0, √(σ²_μ))
     σ² = Vector(undef, n)
     for i in 1:n
         σ²[i] ~ InverseGamma(10, 0.1)
