@@ -1,5 +1,8 @@
 name = "PPdemo"
-[compat]
-julia = "1.5.1"
+
 [deps]
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
+
+[compat]
+julia = "1.5.1"
