@@ -39,7 +39,6 @@ chain = sample(infer_window(xs, ys), HMC(0.1, 10), 1000, drop_warmup=true)
 
 plot(chain)
 
-
 fig_stars = scatter(xs, ys, m=:star, xlims=[0, 20], ylims=[0, 10], bgcolor=:black,
             color=:yellow, label="stars")
 
