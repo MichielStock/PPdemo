@@ -24,6 +24,8 @@ using LinearAlgebra: ⋅
 
 end
 
+code
+
 chain = sample(demix(1.0, [0.8, 1.8, 50.9]), NUTS(), 1000, drop_warmup=true)
 
 corner(chain)
